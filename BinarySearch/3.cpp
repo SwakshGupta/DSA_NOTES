@@ -4,6 +4,12 @@ Search in a sorted rotated array
 
 1. Since it was sorted array and we have to do searc in this so we will do binary search 
 
+
+1. First figure out which part is sorted by  check whether nums[low]<=nums[mid] which will tell us left part is sorted
+and then check for the right part which will tell us whether the right part is sorted 
+
+2.  and then just check whether the left part lie or not 
+
 */
 
 #include<iostream>
