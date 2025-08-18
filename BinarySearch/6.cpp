@@ -8,9 +8,10 @@ return the index to any of the peaks.
 
 consider the index -1,n+1 as (-infinity)
 
-1. Solve the problem with (logN) time complexity 
 
+1. Baically the decresing curve is never going to have a peak element we always have to find increasing surface for this peak element
 
+2. First and last number would be solved seperately and then we will check for the increasing curve and will scale down everything accordingly
 
 */
 
