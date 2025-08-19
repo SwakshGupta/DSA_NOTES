@@ -9,7 +9,7 @@ return the area of the largest rectangle in the histogram.
 approach is given in the notebook one is the  brute force which computes the nse and pse and the other is using the stack which is the optimal approach 
 
 
- So in the largest area histogram there are two approaches one is finding the nse and gse seperatly lets discuss that
+ So in the largest area histogram there are two approaches one is finding the nse and pse seperatly lets discuss that
 
 1. so we will find the nse and pse seperately which will give us the range (nse-pse-1) is the range *heights[i] will give the area 
 

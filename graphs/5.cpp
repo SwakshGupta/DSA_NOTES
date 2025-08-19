@@ -18,6 +18,15 @@ Output: 5
 Explanation: One shortest transformation sequence is "hit" -> "hot" -> "dot" -> "dog" -> cog", which is 5 words long.
 
 
+approach
+
+1 . create a set vector where insert everyword in the set 
+
+2. create a queue of string and count traverse the queue replace each element  and check whether that element exist in the set or not 
+
+3. If that word exist then just push that word into the queue and increase the counter 
+
+
 */
 
 
