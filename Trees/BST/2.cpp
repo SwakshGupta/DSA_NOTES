@@ -2,13 +2,20 @@
 Deleting a node in binary search tree 
 
 
+three cases will be made for the deletion of node 
+
+1. no children in that case you have to remove the root node only
+
+2. second case when there is one children in that case you have to remove  the root and return that children 
+
+3. third case when there are 2 children in this case you have to go to the go leftmost side of the right node and 
+then replace that node with the root ndoe and then just remove the leftmost node  
+
+4. 
+
+
 
 */
-
-
-
-
-
 
 #include<iostream>
 using namespace std;
@@ -41,7 +48,7 @@ node* deleteNode(node* root, int key) {
     if (root == NULL) return NULL;
 
     if (key < root->val) {
-        root->left = deleteNode(root->left, key);
+        root->left = deleteNode(root->left, key); // if key is greater than we will  call the right child
     } else if (key > root->val) {
         root->right = deleteNode(root->right, key);
     } else {

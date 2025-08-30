@@ -1,3 +1,15 @@
+
+/*
+Recover BST so two nodes of BST are swapped now we have to make it correct 
+
+1. One method is via creating a inorder vector and sort it that would be our correct BST now we will compare that vector with the BST and correct all the value 
+simultaneously 
+
+2.If we have 2 voilation  then we will swap the first and the last elements 
+
+3. IF we have 1 voilation then we will swap fist and middle element 
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -13,16 +25,6 @@ struct TreeNode {
     }
 };
 
-/*
-Recover BST so two nodes of BST are swapped now we have to make it correct 
-
-1. One method is via creating a inorder vector and sort it that would be our correct BST now we will compare that vector with the BST and correct all the value 
-simultaneously 
-
-2.If we have 2 voilation  then we will swap the first and the last elements 
-
-3. IF we have 1 voilation then we will swap fist and middle element 
-*/
 
 class Solution {
     TreeNode* first;  // these all will tell us about first and second voilation 
