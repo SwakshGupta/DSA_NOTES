@@ -12,14 +12,14 @@ Return the longest common subsequence between the two sequences
 3. if the indices does not match then we decrease inx of one string for one function and for other function we decrease the indx of other function and then calculate the max out of it 
 
 
+simple hai 2 cases are possible  when string are equal and string are not equal when they are equal then we 
+will add 1 in the function and when not equal we will find max among the two string 
+
+
 
 // most important topic will be used in next videos 
 
 */
-
-
-
-
 
 
 #include<iostream>
@@ -83,7 +83,7 @@ for(int i=1; i<=n; i++)
     }
 }
 
-
+return dp[n][m];
 
 }
 

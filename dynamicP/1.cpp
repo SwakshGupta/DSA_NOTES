@@ -9,6 +9,9 @@ Ninja training problem
 here we have two parameters changing
 
 
+dp[last][task]- give me an array from 0-last such that the last task was done what is maximum among them 
+
+
 
 */
 

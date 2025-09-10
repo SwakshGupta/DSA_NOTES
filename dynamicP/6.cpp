@@ -32,7 +32,7 @@ if(target>nums[index])
      include=solve(nums,dp,target-nums[index],index+1);
 }
 
-int exclude=solve(nums,dp,target-nums[index],index+1);
+int exclude=solve(nums,dp,target,index+1);
 
 dp[index][target]=include || exclude;
 

@@ -1,7 +1,8 @@
 
 /*
 
-count subsets with sum K ,  given an array we have to return number of subsets whose sum is equal to the given sum 
+count subsets with sum K ,  
+given an array we have to return number of subsets whose sum is equal to the given sum 
 
 Pretty standared problem 
 

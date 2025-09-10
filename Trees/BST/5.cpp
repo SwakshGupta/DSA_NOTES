@@ -2,12 +2,17 @@
 /*
 Recover BST so two nodes of BST are swapped now we have to make it correct 
 
-1. One method is via creating a inorder vector and sort it that would be our correct BST now we will compare that vector with the BST and correct all the value 
-simultaneously 
+1. Find inorder of BST then we will check for the elements which are not sorted in the ascending order
 
-2.If we have 2 voilation  then we will swap the first and the last elements 
+2. And then we can either sort them that would be brute force method or either check for voilation 1 and voilation 2
 
-3. IF we have 1 voilation then we will swap fist and middle element 
+3. We will create four variables prev,middle,first,last which will store these voilation if there are two voilations
+
+4. Then we will swap first and last variable else we will swap first and the middle variable 
+
+
+
+
 */
 
 #include <iostream>
@@ -27,7 +32,7 @@ struct TreeNode {
 
 
 class Solution {
-    TreeNode* first;  // these all will tell us about first and second voilation 
+    TreeNode* first;  // we have made four pointers which will be poiting to the voilating nodes 
     TreeNode* prev;
     TreeNode* middle;
     TreeNode* last;

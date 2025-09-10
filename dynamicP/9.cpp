@@ -1,5 +1,6 @@
 /*
-Count the partition with given Difference  . So we have to count number of subsequence whose difference is equal to the given target
+Count the partition with given Difference  . 
+So we have to count number of subsequence whose difference is equal to the given target
 
 dp-18
 
@@ -25,8 +26,10 @@ return 1;
 
 if(index==0)
 {
-    if(target<=nums[0])
+    if(target==nums[0])
     return 1;
+    else
+    return 0;
 }
  
 if(dp[index][target]!=-1)
@@ -48,12 +51,6 @@ dp[index][target]=taken+notTaken;
 
 
 
-
-
-
-
-
-
 // this question code 
 
 int findWays(vector<int>arr,int tar)
@@ -67,11 +64,6 @@ vector<vector<int>>dp(n,vector<int>(tar+1,-1));
 
 
 }
-
-
-
-
-
 
 int countPartitions(int n,int d ,vector<int>&arr)
 {

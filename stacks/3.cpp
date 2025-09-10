@@ -12,10 +12,6 @@ Sum of subarray is minimum question theory in notebook
 so its basically find range where nums[i] was minimum and then multiply the range with nums[i]
 
 
-
-
-
-
 */
 
 

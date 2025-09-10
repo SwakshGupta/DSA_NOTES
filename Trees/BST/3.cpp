@@ -1,5 +1,5 @@
 /*
-Inorder sucessor - Element which is ust greater than the given element 
+Inorder sucessor - Element which is just greater than the given element 
 
 
 */
